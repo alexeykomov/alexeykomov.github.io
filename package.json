@@ -1,0 +1,23 @@
+{
+  "name": "alexeykomov.net",
+  "version": "0.0.1",
+  "description": "homepage",
+  "main": "",
+  "directories": {
+  },
+  "private": true,
+  "scripts": {
+    "build": "jade index.jade & less less/combined.less"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": [
+    "alexeykofficial@gmail.com (Alex K)"
+  ],
+  "license": "commercial",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
