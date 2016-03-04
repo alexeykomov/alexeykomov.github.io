@@ -68,7 +68,7 @@ html(lang='en')
           span.
             Feel free to contact me by&nbsp;
           a(id='mail-link', href='').
-            mail
+            e-mail
           span.
             .
     script.
@@ -86,3 +86,33 @@ html(lang='en')
 
       ga('create', 'UA-46682662-4', 'auto');
       ga('send', 'pageview');
+    // Yandex.Metrika counter
+    script.
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter35859890 = new Ya.Metrika({
+                        id:35859890,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    noscript.
+      div.
+        img(src='https://mc.yandex.ru/watch/35859890', style='position:absolute; left:-9999px;', alt='')
+    // /Yandex.Metrika counter
+
