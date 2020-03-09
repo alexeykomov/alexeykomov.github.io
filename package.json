@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "description": "homepage",
   "main": "",
-  "directories": {
-  },
+  "directories": {},
   "private": true,
   "scripts": {
-    "build": "jade index.jade & lessc --clean-css less/all.less css/all.css"
+    "build": "jade index.jade & lessc -x less/all.less css/all.css"
   },
   "keywords": [
     "homepage"
@@ -17,7 +16,8 @@
   ],
   "license": "commercial",
   "devDependencies": {
+    "jade-cli": "^0.1.1",
+    "less": "^3.11.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
